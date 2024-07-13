@@ -3,7 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useAppSelector } from "../redux/hook";
-import { selectCartItems, selectCartTotal } from "../redux/features/cartSlice";
+import { selectCartItems } from "../redux/features/cartSlice";
 
 const navLinks = [
   { title: "Home", url: "/" },
